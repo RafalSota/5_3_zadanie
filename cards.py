@@ -45,7 +45,6 @@ BusinessCards = []
 BaseCards = []
 
 def create_contacts(type_cards, amount):
-    #BusinessCards = []
     if type_cards == BaseContact:
         print(f"\nTworzę losową listę kontaktów podstawowych: \n")
         for i in range(0, amount):
